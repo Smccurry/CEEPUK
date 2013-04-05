@@ -1,0 +1,897 @@
+/*
+Theme Name: Andrea
+Theme URI: http://lucianmarin.com/
+Description: Most beautiful WordPress theme ever made, inpired by an incredible woman.
+Version: 0.3
+Author: <a href="http://lucianmarin.com/">Lucian E. Marin</a>
+Tags: white, two columns, fixed width, light, minimal
+For the WordPress community (GPL), enjoy it guys.
+by Lucian E. Marin - lucianmarin.com
+*/
+
+body {
+background:#fff;
+font-family:Verdana, Geneva, sans-serif;
+font-size:12px;
+color:#000;
+padding:0 0 15px 0;
+margin:0;
+border-top:#002a53 5px solid;
+}
+
+* {
+padding:0;
+margin:0;
+}
+
+a {
+color:#fff;
+text-decoration:none;
+}
+
+a:visited {
+color:#fff;
+text-decoration:none;
+}
+
+a:hover {
+color:#6FC4AB;
+text-decoration:underline;
+}
+
+a:active {
+color:#6FC4AB;
+text-decoration:underline;
+}
+
+
+
+h2, h3, h4 {
+font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-weight:normal;
+color:#003F5B
+}
+
+
+h1{
+font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-weight:normal;
+font-size:2.5em;
+color:#003F5B
+}
+
+input, select {
+font-family:Verdana, Geneva, sans-serif;
+font-size:11px;
+}
+
+textarea {
+font-family:Verdana, Geneva, sans-serif;
+font-size:12px;
+}
+
+abbr {
+border:none;
+}
+
+#wrap {
+width:1000px;
+margin:0 auto;
+background-color:#003F5B;
+
+}
+
+/* Header */
+
+#topband{
+Height:10px;
+background-color:#003F5B;
+}
+
+#header {
+height:101px;
+margin:0px 0px;
+text-align:left;
+background-color:#fff
+}
+
+#headerimg{
+padding: 10px 10px 10px 20px;
+float: left
+}
+
+#strap{
+float:left;
+padding:20px 0px 0px 50px
+}
+
+#headerarrow{
+height:27px;
+width:26px;
+}
+
+#headertext{
+Height: 50px;
+}
+
+#bottomband{
+clear:both;
+height: 10px;
+background-color:#6FC4AB
+}
+
+
+/* posts styles */
+
+#content {
+float:right;
+width:740px;
+text-align:left;
+background-color:#EBEBE4;
+margin:0px 0px 0px 25px;
+border-left: 2px solid #fff;
+padding: 15px 0px 25px 20px
+}
+
+#content h1 {
+color:#003F5B;
+}
+
+#content h2 {
+font-size:18px;
+padding:0px 0px;
+color:#003F5B;
+}
+
+#content h1 a {
+color:#003F5B;
+text-decoration:none;
+}
+
+#content h2 a {
+color:#003F5B;
+text-decoration:none;
+}
+
+#content h2.archive {
+font-size:18px;
+color:#4e8abe;
+padding:10px 0 0px 0;
+}
+
+#content a.commentsLink {
+color:#003F5B;
+}
+
+
+
+/* home page styles */
+
+#contentcogs {
+float:right;
+width:740px;
+text-align:left;
+background-color:#003F5B;
+margin:15px 0px 20px 25px;
+border-left: 2px solid #fff;
+padding: 0px 0px 0px 20px
+}
+
+#contentcogs h2 {
+font-size:18px;
+padding:0px 0px;
+color:#fff;
+}
+
+#contentcogs h2 a {
+color:#fff;
+text-decoration:none;
+}
+
+#contentcogs h2.archive {
+font-size:18px;
+color:#4e8abe;
+padding:10px 0 0px 0;
+}
+
+#contentcogs a.commentsLink {
+color:#6799c8;
+}
+
+/* Navigation */
+
+.aligncenter {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.alignleft {
+float:left;
+}
+
+.alignright {
+float:right;
+}
+
+.navpost {
+font-size:11px;
+margin:0 0 20px 0;
+}
+
+.navpost div {
+
+color:#4e8abe;
+padding:2px 4px;
+}
+
+.navpost a {
+color:#4e8abe;
+text-decoration:none;
+}
+
+.navpost a:hover {
+color:#4e8abe;
+text-decoration:underline;
+}
+
+.navigation {
+font-size:11px;
+margin:0 0 20px 0;
+}
+
+.navigation a {
+background:#002a53;
+display:block;
+color:#87b2d8;
+text-decoration:none;
+padding:0px 0px;
+}
+
+.navigation a:hover {
+color:#fff;
+text-decoration:underline;
+}
+
+
+img{  
+border-style: none;
+}
+
+/* Main for home cogs page */
+
+.mainwrapper{
+padding:35px 0px 404px 0px;
+Margin: 0px 0px -20px 0px;
+background:url(images/CEEP_WEBSITE_pages-HIREZ.jpg) no-repeat bottom right;
+}
+
+.maincogs{
+width:400px;
+float:left;
+margin: 27px 0px 0px 0px
+}
+
+.maincogs h3 {
+font-size:15px;
+font-weight:bold;
+margin:0 0 15px 0;
+}
+
+/* Main for Map1 page */
+
+#contentmap {
+float:right;
+width:740px;
+text-align:left;
+background-color:#EBEBE4;
+margin:0px 0px 0px 25px;
+border-left: 2px solid #EBEBE4;
+padding: 0px 0px 0px 20px
+}
+
+#contentmap h2 {
+font-size:18px;
+padding:0px 0px;
+color:#003F5B;
+}
+
+#contentmap h2 a {
+color:#003F5B;
+text-decoration:none;
+}
+
+#contentmap h2.archive {
+font-size:18px;
+color:#4e8abe;
+padding:10px 0 0px 0;
+}
+
+#contentmap a.commentsLink {
+color:#6799c8;
+}
+
+
+/* Map1 page elements */
+.mapwrapper{
+padding:0px 0px 550px 0px;
+Margin: 0px 0px 0px 0px;
+background:url(images/map1_1.png) no-repeat top right;
+}
+
+.map1{
+width:370px;
+float:left;
+margin: 250px 0px 0px 0px
+}
+
+.map1 h2{
+color:#003F5B
+}
+
+.map1 h2{
+color:#003F5B
+}
+
+
+/* Map2 page elements */
+
+.mapwrapper2{
+padding:0px 0px 550px 0px;
+Margin: 0px 0px 0px 0px;
+background:url(images/map2a.png) no-repeat top right;
+}
+
+.map2{
+width:370px;
+float:left;
+margin: 25px 0px 0px 0px
+}
+
+.map2 h2{
+color:#003F5B
+}
+
+
+.map2 h3{
+color:#003F5B
+}
+
+/* Sectors front page */
+
+.sectorswrapper{
+padding:0px 0px 550px 0px;
+Margin: 0px 15px 0px 0px;
+background:url(images/page4.png) no-repeat top right;
+}
+
+.sectors{
+width:370px;
+float:left;
+margin: 25px 0px 0px 0px
+}
+
+.sectors h2{
+color:#003F5B
+}
+
+.sectors h3{
+color:#003F5B
+}
+
+.sectors li{
+Margin-left:15px
+}
+
+a.sectorlinkmain:active{
+color:#003F5B
+}
+
+a.sectorlinkmain:visited{
+color:#003F5B
+}
+
+a.sectorlinkmain:link{
+color:#003F5B
+}
+
+a.sectorlinkmain:hover{
+color:#003F5B;
+text-decoration:underline
+}
+
+a.sectorlink:active{
+color:#000
+}
+
+a.sectorlink:visited{
+color:#000
+}
+
+a.sectorlink:link{
+color:#000
+}
+
+a.sectorlink:hover{
+color:#000;
+text-decoration:underline
+}
+
+/*Members page items */
+
+.memberwrapper{
+padding:0px 0px 550px 0px;
+Margin: 0px 15px 0px 0px;
+}
+
+.memberstext{
+background-color:#f5a326;
+float:right;
+width:200px;
+margin: 25px 50px 0px 0px;
+padding-bottom:10px
+}
+
+.members{
+width:380px;
+float:left;
+margin: 25px 0px 0px 0px
+}
+
+.members h2{
+color:#003F5B
+}
+
+.members h3{
+color:#003F5B
+}
+
+.members li{
+Margin-left:15px
+}
+
+
+
+
+/* Main for posts */
+
+.main h3 {
+font-size:15px;
+font-weight:bold;
+margin:0 0 15px 0;
+}
+
+.main img {
+padding:0px;
+border:#005595 0px solid;
+}
+
+.main a {
+color:#003F5B;
+}
+
+.main a:hover {
+color:#003F5B;
+text-decoration:underline
+}
+
+.main a:active {
+color:#003F5B;
+}
+
+.main a img {
+padding:0px;
+
+}
+
+.main a:hover img {
+padding:0px;
+
+}
+
+.main p {
+line-height:18px;
+margin:0 0 15px 0;
+color:#003F5B
+}
+
+.main ol {
+line-height:18px;
+margin:0 0 15px 30px;
+}
+
+.main ul {
+line-height:18px;
+margin:0 0 15px 30px;
+}
+
+.main li {
+margin:0 0 5px 10px;
+}
+
+.stamp {
+font-size:11px;
+color:#000;
+margin:0 0 15px 0;
+}
+
+.stamp a {
+color:#003F5B;
+text-decoration:none;
+}
+
+.stamp a:hover {
+color:#003F5B;
+text-decoration:underline
+}
+
+.meta {
+background:url(images/limit.gif) bottom center no-repeat;
+font-size:11px;
+line-height:16px;
+color:#4e8abe;
+border-top:#005595 0px solid;
+margin:0 0 15px 0;
+padding:5px 0px 30px 0px;
+}
+
+img.wp-smiley {
+margin:0;
+padding:0;
+border:none;
+}
+
+blockquote {
+margin:0 0 0 20px;
+padding:0 0 0 10px;
+border-left:#005595 1px solid;
+}
+
+.warning p {
+font-size:13px;
+margin:0 0 0 20px;
+padding:0 0 0 10px;
+border-left:#005595 1px solid;
+}
+
+/* Sidebar */
+
+#sidebar {
+font-size:16px;
+float:left;
+width:193px;
+margin:25px 0px 25px 20px;
+padding:25px 0px 20px 0px;
+text-align:left;
+
+background-color:#00405C
+}
+
+#sidebar h3 {
+font-size:12px;
+font-weight:bold;
+color:#fff;
+margin:20px 0 5px 0;
+}
+
+#sidebar ul {
+list-style:none;
+}
+
+#sidebar ul ul {
+margin:5px 0 0 10px;
+}
+
+#sidebar ul ul ul {
+margin:5px 0 0 10px;
+}
+
+#sidebar ul li {
+padding:0 0 5px 0;
+}
+
+#sidebar a {
+color:#fff;
+text-decoration:none;
+}
+
+#sidebar a:visited {
+color:#fff;
+text-decoration:none;
+}
+
+#sidebar a:hover {
+color:#6FC4AB;
+text-decoration:none;
+}
+
+#sidebar a:active {
+color:#6FC4AB;
+text-decoration:underline;
+}
+
+#author h3 {
+margin:5px 0 5px 0;
+}
+
+
+
+
+/* Forms: input, textarea */
+
+input {
+background:#fff;
+padding:3px 5px;
+border:none;
+border-bottom:#000 1px solid;
+color:#000;
+}
+
+textarea {
+background:#fff;
+width:400px;
+padding:3px 5px;
+border:none;
+border-bottom:#000 1px solid;
+color:#000;
+}
+
+#searchform {
+margin:15px 0 0 0;
+}
+
+.searchinfo {
+padding:5px 0 0 0;
+}
+
+#searchform input {
+background:#fff;
+display:block;
+padding:3px 5px;
+border:#004b8d 1px solid;
+color:#a0cbed;
+}
+
+#searchform input:hover {
+background:#fff;
+cursor:pointer;
+border:#004b8d 1px solid;
+color:#fff;
+}
+
+#searchform #s {
+background:#fff;
+padding:3px 5px;
+border:none;
+border-bottom:#004b8d 1px solid;
+color:#000;
+cursor:text;
+}
+
+input.submit {
+background:#fff;
+display:block;
+padding:3px 5px;
+margin:0 0 10px 0;
+border:#004b8d 1px solid;
+color:#a0cbed;
+cursor:pointer;
+}
+
+input.submit:hover {
+background:#fff;
+cursor:pointer;
+border:#004b8d 1px solid;
+color:#000;
+}
+
+/* Comments */
+
+.postinput small {
+font-size:11px;
+margin:0 0 0 5px;
+}
+
+p.logged {
+font-size:12px;
+}
+
+h3.reply {
+font-size:15px;
+margin:0 0 10px 0;
+}
+
+.nocomments {
+margin:0 0 30px 0;
+}
+
+ol.commentList {
+list-style:none;
+margin:10px 0 30px 0;
+}
+
+.commentList li {
+padding:0 0 10px 0;
+}
+
+.commentList li.bypostauthor .commentText {
+border-top:#007dc3 3px solid;
+}
+
+.commentMod {
+background:#002a53;
+padding:1px 3px;
+margin:10px 0 0 10px;
+}
+
+.commentAuthor {
+background:url(images/arrow.gif) no-repeat top left;
+padding:10px 0;
+margin:0 0 0 30px;
+width:250px;
+color:#4e8abe;
+}
+
+.commentAuthor img {
+float:left;
+margin:5px 12px 0 0;
+}
+
+.commentAuthor p {
+padding:3px 0 0 0;
+}
+
+.commentAuthor small {
+font-size:11px;
+}
+
+.commentText {
+background:#fff;
+width:480px;
+padding:10px;
+border-top:#004b8d 3px solid;
+}
+
+.commentText p {
+line-height:18px;
+margin:7px 0;
+}
+
+.commentMeta {
+font-size:12px;
+color:#4e8abe;
+}
+
+#commentForm p {
+color:#fff;
+font-size:11px;
+line-height:18px;
+margin:0 0 15px 0;
+}
+
+/* Footer */
+
+#footer {
+background:#003F5B;
+position:relative;
+font-size:11px;
+color:#6FC4AB;
+margin:0 auto;
+padding:0 10px 10px 10px;
+width:980px;
+text-align:left;
+}
+
+#footer a {
+color:#fff;
+text-decoration:none;
+}
+
+#footer a:hover {
+color:#fff;
+text-decoration:none;
+}
+
+/* Footer for home page - uses template page cogs */
+
+#footerhome {
+background:#6FC4AB;
+position:relative;
+font-size:11px;
+color:#6FC4AB;
+margin:0 auto;
+padding:0 10px 10px 10px;
+width:980px;
+text-align:left;
+}
+
+#footerhome a {
+color:#003F5B;
+text-decoration:none;
+}
+
+#footerhome a:hover {
+color:#003F5B;
+text-decoration:none;
+}
+
+#top {
+float:right;
+}
+
+#top a {
+background:url(images/top.gif) right no-repeat;
+padding:0 16px 1px 0;
+}
+
+/* Widgets */
+
+.wp-caption {
+border:1px solid #00377c;
+text-align:center;
+background-color:#001e42;
+padding-top:4px;
+margin:10px;
+-moz-border-radius:3px;
+-khtml-border-radius:3px;
+-webkit-border-radius:3px;
+border-radius:3px;
+}
+
+.wp-caption img {
+margin:0;
+padding:0;
+border:0 none;
+}
+
+.wp-caption-dd {
+font-size:11px;
+line-height:17px;
+padding:0 4px 5px;
+margin:0;
+}
+
+#wp-calendar {
+padding:10px 0 0 0;
+}
+
+#wp-calendar caption {
+text-align:left;
+padding:0 0 3px 0;
+}
+
+#wp-calendar tr th,
+#wp-calendar tr td {
+padding:0 4px 0 0 ;
+text-align:right;
+}
+
+#wp-calendar td a {
+font-weight:bold;
+}
+
+#wp-calendar td a:hover {
+font-weight:bold;
+}
+
+
+/* Self-Clear Floats */
+
+.group:after {
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+/* IE6/7 Hacks */
+
+
+* html .group {
+height: 1%;
+}
+
+*:first-child+html .group {
+min-height: 1px;
+}
